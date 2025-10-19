@@ -33,12 +33,12 @@ int main()
         BeginDrawing();
         ClearBackground(grey);
         DrawRectangleRoundedLinesEx({10, 10, 780, 780}, 0.18f, 20, 2, yellow); 
-        //DrawRectangleRoundedLinesEx Added in raylib 5.5
+        //DrawRectangleRoundedLinesEx Added in raylib 5.5( inBuilt fn)
         //DrawRectangleRoundedLines({10, 10, 780, 780}, 0.18f, 20, 2, yellow); //Use this for previous raylib versions
         DrawLineEx({25, 730}, {775, 730}, 3, yellow);
 
         if(game.run){
-            DrawTextEx(font, "LEVEL 01", {570, 740}, 34, 2, yellow);
+            DrawTextEx(font, "LEVEL- 01", {570, 740}, 34, 2, yellow);
         } else {
             DrawTextEx(font, "GAME OVER", {570, 740}, 34, 2, yellow);
         }
@@ -48,11 +48,11 @@ int main()
             x += 50;
         }
 
-        DrawTextEx(font, "SCORE", {50, 15}, 34, 2, yellow);
+        DrawTextEx(font, "Score", {50, 15}, 34, 2, yellow);
         std::string scoreText = FormatWithLeadingZeros(game.score, 5);
         DrawTextEx(font, scoreText.c_str(), {50, 40}, 34, 2, yellow);
 
-        DrawTextEx(font, "HIGH-SCORE", {570, 15}, 34, 2, yellow);
+        DrawTextEx(font, "High-Score", {570, 15}, 34, 2, yellow);
         std::string highscoreText = FormatWithLeadingZeros(game.highscore, 5);
         DrawTextEx(font, highscoreText.c_str(), {655, 40}, 34, 2, yellow);
 
