@@ -38,7 +38,7 @@ int main()
         DrawLineEx({25, 730}, {775, 730}, 3, yellow);
 
         if(game.run){
-            DrawTextEx(font, "LEVEL- 01", {570, 740}, 34, 2, yellow);
+            DrawTextEx(font, "GAME-PLAY", {570, 740}, 34, 2, yellow);
         } else {
             DrawTextEx(font, "GAME OVER", {570, 740}, 34, 2, yellow);
         }
