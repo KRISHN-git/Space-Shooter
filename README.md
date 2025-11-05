@@ -4,7 +4,7 @@ This project is a classic arcade Space Shooters game, reminiscent of Space Invad
 **Gameplay Screenshot:**
 
 ![Gameplay Screenshot](Space.png)
-* Open [Space-shooter](https://youtu.be/YGS7fWnQaO8) video to see the gameplay.
+* Open [Space-shooter](https://youtu.be/32zbjka9oa8) video to see the gameplay.
 ---
 # Tech Stack:
  **The primary tech stack used for this game is:**
